@@ -1,0 +1,42 @@
+@media (max-width:930px) {
+    .header-banner{
+        width: 40%;
+    }
+    .desktop-link-holder{
+        width: 50%;
+    }
+    .content-holder{
+        width: 100%;
+    }
+    .content-holder p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:620px) {
+    .nav-mobile{
+        display: flex;
+    }
+    .Nav-desktop{
+        display: none;
+    }
+    .header-banner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .content-holder{
+        flex-direction: column;
+    }
+    .content{
+        width: 80%;
+        margin: 5px auto;
+    }
+    .cta-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}

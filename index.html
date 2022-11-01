@@ -8,10 +8,27 @@
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="default.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
+    <!-- mobile nav section  -->
     <!--header section starts here  -->
     <header>
+        <nav class="nav-mobile">
+            <div class="mobile-logo">
+                <span>EXPLORER</span> 
+            </div>
+            <div class="harmburger" onclick="codedtunez()">
+                <div class="menu"></div>
+            </div>
+            <div class="mobile-links-holder">
+                <ul>
+                    <li><a href="#" class="mobile-active-link"> HOME</a></li>
+                    <li><a href="#aboutus"> ABOUT</a></li>
+                    <li><a href="#explorefoods">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
         <nav class="Nav-desktop">
             <div class="Desktop-logo">
                 <h2>EXPLORER</h2>
@@ -112,5 +129,7 @@
             <span class="icon-container"> <a href="https://twitter.com/AyodejiRotimi1" target="_blank"><i class="fa-brands fa-twitter"></i></a></span>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

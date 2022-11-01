@@ -9,12 +9,133 @@ body{
     margin: 0 auto;
 }
 
+/* mobile nav section  */
+.nav-mobile{
+    /* border: 3px solid black; */
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    display: none;
+    background: tomato;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mobile-logo{
+    /* border: 3px solid tomato; */
+    background: var(--main-color);
+    display: flex;
+    color: var(--white-color);
+    align-items: center;
+}
+
+.mobile-logo-container{
+    border: 3px solid var(--white-color);
+    font-size: 25px;
+    padding: 5px;
+}
+
+.mobile-logo span{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.harmburger{
+    /* border: 3px solid black; */
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-links-holder{
+    /* border: 3px solid black; */
+    transform: translateX(200%);
+    position: fixed;
+    right: 0;
+    top: 50px;
+    width: 100%;
+    background: tomato;
+    transition: all 0.9s ease;
+}
+
+.show-mobile-links-holder{
+    transform: translateX(0);
+}
+.mobile-links-holder ul{
+    list-style: none;
+}
+.mobile-links-holder ul li a:hover{
+    background: white;
+    color: tomato;
+}
+
+.mobile-links-holder a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 24px 0 24px 20px;
+}
+
+.mobile-active-link:hover{
+    background: white;
+    color: tomato;
+}
+.showburger .menu{
+    background: transparent;
+}
+
+.showburger .menu::before{
+    transform: translateY(0) rotate(45deg);
+    background: white;
+}
+
+.showburger .menu::after{
+    transform: translateY(0) rotate(-45deg);
+    background: white;
+}
+
+.menu{
+    height: 3px;
+    width: 100%;
+    background: white;
+    position: relative;
+    z-index: 6;
+}
+
+.menu::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: white;
+    transform: translateY(-10px);
+   
+}
+
+.menu::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: white;
+    transform: translateY(10px);
+
+}
+
 /* header section starts here */
 header{
     /* border: 3px solid tomato; */
     padding: 30px;
     background: url(./images/header-fig.png);
     color: white;
+    position: relative;
     /* height: 600px; */
 }
 
