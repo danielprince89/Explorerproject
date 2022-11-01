@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* header section starts here */
+header{
+    /* border: 3px solid tomato; */
+    padding: 30px;
+    background: url(./images/header-fig.png);
+    color: white;
+    /* height: 600px; */
+}
+
+.Nav-desktop{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Desktop-logo{
+    /* border: 2px solid tomato; */
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.desktop-link-holder{
+    /* border: 3px solid purple; */
+    display: flex;
+    width: 40%;
+}
+
+.desktop-link-holder ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* border: 3px solid blue; */
+    width: 100%;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+
+.desktop-link-holder ul a{
+    text-decoration: none;
+    color: white;
+}
+.header-banner{
+    /* border: 2px solid green; */
+    width: 30%;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+.header-banner h4{
+    font-size: 23px;
+    padding: 15px 0;
+}
+.header-banner p{
+    width: 80%;
+    font-size: 17px;
+    padding: 15px 0;
+    line-height: 141.52%;
+}
+.btn{
+    padding: 7px 13px;
+    border: none;
+    border-radius: 30px;
+    background: tomato;
+    color: white;
+    font-size: 10px;
+}
+
+.btn-white{
+    background: white;
+    color: tomato;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* header section ends here */
+
+/* second section starts here */
+.second-section-container {
+    /* border: 2px solid tomato; */
+    padding: 20px;
+}
+
+.content-holder{
+    /* border: 2px solid black; */
+    padding: 10px 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.content{
+    /* border: 2px solid blue; */
+    width: 30%;
+    padding: 25px;
+    background: tomato;
+    color: white;
+    border-radius: 25px;
+}
+
+.content h4{
+    font-size: 23px;
+}
+
+.content h3{
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.content p{
+    padding: 10px 0;
+    font-size: 14px;
+    padding-bottom: 35px;
+    line-height: 1.5;
+}
+/* second section ends here */
