@@ -11,11 +11,9 @@
 
 var harmburgerdiv = document.querySelector(".harmburger")
 var mobileLinks = document.querySelector(".mobile-links-holder")
-var backdrop = document.querySelector(".backdrop")
 // console.log(harmburgerdiv)
 
 function codedtunez() {
     harmburgerdiv.classList.toggle("showburger")
     mobileLinks.classList.toggle("show-mobile-links-holder")
-    backdrop.classList.toggle("show-backdrop")
 }

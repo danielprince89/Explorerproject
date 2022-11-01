@@ -32,11 +32,17 @@
         margin: 5px auto;
     }
     .cta-section{
-        flex-direction: column;
         text-align: center;
     }
     footer{
         flex-direction: column;
         text-align: center;
+    }
+    .footer-link-holder{
+        /* border: 2px solid green; */
+        width: 18%;
+        margin: 5px auto;
+        display: flex;
+        justify-content: space-between;
     }
 }
