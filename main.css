@@ -130,3 +130,40 @@ header{
     line-height: 1.5;
 }
 /* second section ends here */
+
+/* Cta section starts here */
+
+.cta-section{
+    /* border: 2px solid black; */
+    background: tomato;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo-holder{
+    padding-top: 25px;
+    color: white;
+}
+/* Cta section starts here */
+
+/* footer section starts here */
+footer{
+    /* border: 2px solid blue; */
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer h2{
+    font-size: 18px;
+}
+
+.footer-link-holder a {
+    /* border: 2px solid tomato; */
+    text-decoration: none;
+    color: white;
+}
+/* footer section ends here */
